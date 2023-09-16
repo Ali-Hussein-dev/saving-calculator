@@ -12,6 +12,7 @@ npm install
 - all services have the same configuration options
 - Assume calculation is based on monthly usage
 - Assume all services have the same unit of usage (seconds)
+- we have only 4 services
 
 ## Environment Variables
 
