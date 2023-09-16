@@ -8,7 +8,7 @@ npm install
 
 ## Assumptions about AWS services and pricing
 
-- all services are availabe in all regions
+- all services are available in all regions
 - all services have the same configuration options
 - Assume calculation is based on monthly usage
 - Assume all services have the same unit of usage (seconds)
@@ -16,3 +16,5 @@ npm install
 ## Environment Variables
 
 no environment variables are required
+
+[demo](https://saving-calculator.vercel.app/)
