@@ -30,7 +30,6 @@ export const useServiceStore = create<State & Action>()(
             setValue: (name, value) => set(() => ({ [name]: value })),
             calculateServiceCost: () =>
                 set((s) => {
-                    // @ts-expect-error typescript can't type from json
                     const rate = data.find(
                         (item: { service_code: string }) =>
                             // item.region === s.region &&
